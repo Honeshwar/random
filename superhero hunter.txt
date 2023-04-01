@@ -1,0 +1,1 @@
+store favorite click add item to web storage for access over web not gone vanish when i refresh page(not use db its FE project)

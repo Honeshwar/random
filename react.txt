@@ -1,0 +1,59 @@
+* React is an js library that help us to create UI
+  without using html(only an bioler plate) just using jsx for   html (components)
+
+------------------------------
+context api help us from prop drilling(pass props from parent -> child -> its chid...)//using context api we can use any props value at any components without props drilling.
+
+can individually use context any component
+
+provider //sender ,store  module
+consumer //receiver
+
+rfc=react func component shortcut in vs code
+
+let a=createContext() provide by react, return something
+
+<a.provider value={thor}>
+<b.provider value={thor}>
+</b.provider>
+</a.provider>
+
+export 
+---
+
+import a
+old way when no hooks presents
+<a.consumer>
+{(value)=>{ return ((value)=>{ return (<h1> {value} </h1>))}
+</a.consumer>  //call back hell come up,we use this way before hooks , now hooks use to avioid call back hell
+------
+now use
+//hooks prove this function
+let value1=useContext(a); //this function return that value ko,we just pass that context in it
+let value2=useContext(b);
+
+
+date 09/02/23
+
+lifecycle method
+
+
+router hooks 
+/:mn/:jb
+ {p} = useParam();
+
+
+{l}=uselocation(); use to play with url
+
+ n=useNavigation();// with it help  we will navigate  to other pages on click , move -5 page back and 2 forward
+
+
+
+
+
+
+
+
+
+
+

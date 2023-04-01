@@ -1,0 +1,9 @@
+mongo db cluster password 7cqz7YmXjGlOAF1K
+
+mongodb+srv://Honeshwar:<password>@cluster0.o5zojlu.mongodb.net/test
+
+
+49.36.189.87/32
+
+C:\Program Files\MongoDB\Server\6.0\data\
+C:\Program Files\MongoDB\Server\6.0\log\

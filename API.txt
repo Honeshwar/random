@@ -1,0 +1,2 @@
+https://......?api_id= & api_key=
+//mostly this two needed,structure same/when authorization for to use api
